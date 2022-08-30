@@ -25,6 +25,7 @@
 
 html{
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 ::-webkit-scrollbar{
@@ -33,4 +34,10 @@ html{
 
 body{
   font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-image: url(../src/assets/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
