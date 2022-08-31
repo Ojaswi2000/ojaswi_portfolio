@@ -1,7 +1,7 @@
 import React from 'react'
 import CTA from './CTA'
 import './header.css'
-
+import PI from '../../assets/git.jpg';
 
 const Header = () => {
   return (
@@ -11,6 +11,11 @@ const Header = () => {
         <h1>Ojaswi Awasthi</h1>
         <h5 className='text-light'>Software Engineer</h5>
         <CTA />
+
+
+        <div className="me">
+          <img src={PI} alt="me" />
+        </div>
       </div>
     </header>
   )
