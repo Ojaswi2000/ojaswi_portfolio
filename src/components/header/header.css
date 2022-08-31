@@ -39,4 +39,10 @@ header{
 }
 
 /**** ME ****/
-
+.me{
+  background: var(--color-primary);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+}
