@@ -2,6 +2,8 @@ import React from 'react'
 import './about.css'
 import AboutMe from '../../assets/about_me.jpg'
 import {FaAward} from 'react-icons/fa'
+import {FiUsers} from 'react-icons/fi'
+import {TbFolders} from 'react-icons/tb'
 
 const About = () => {
   return (
@@ -25,13 +27,13 @@ const About = () => {
               </article>
 
               <article className='about__card'>
-                <FaAward />
+                <FiUsers />
                 <h5>Company</h5>
                 <small>Paymentus Corporation</small>
               </article>
 
               <article className='about__card'>
-                <FaAward />
+                <TbFolders/>
                 <h5>Projects</h5>
                 <small>5+ Completed Projects</small>
               </article>
