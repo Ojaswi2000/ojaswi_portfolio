@@ -45,6 +45,8 @@ const About = () => {
               I have completed many projects in these domains over the course of my engineering in college and have developed a passionate fervour for building
               web apps for clients. I am currently working for Paymentus Corporation and open to new opportunities that excite me. My hobbies are sketching, singing and reading novels. 
             </p>
+
+            <a href='#contact' className='btn btn-primary'>Let's Talk'</a>
         </div>
 
       </div>
