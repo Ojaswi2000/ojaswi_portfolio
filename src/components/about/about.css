@@ -29,3 +29,8 @@
 .about__me-image:hover{
   transform: rotate(0);
 }
+
+.about__cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
