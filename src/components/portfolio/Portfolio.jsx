@@ -4,6 +4,8 @@ import IMG1 from '../../assets/chat-app.PNG'
 import IMG2 from '../../assets/box-office.PNG'
 import IMG3 from '../../assets/appointment.PNG'
 import IMG4 from '../../assets/tictactoe.PNG'
+import IMG5 from '../../assets/payment.PNG'
+import IMG6 from '../../assets/kaggle.PNG'
 
 const data = [
   {
@@ -40,7 +42,7 @@ const data = [
 
   {
     id: 5,
-    image: IMG1,
+    image: IMG5,
     title: "Payment Application-MERN Stack",
     github: "https://github.com/Ojaswi2000/paybytext_mongo",
     demo: "https://github.com/Ojaswi2000/paybytext_mongo"
@@ -48,10 +50,10 @@ const data = [
 
   {
     id: 6,
-    image: IMG1,
+    image: IMG6,
     title: "Kaggle Submissions",
-    github: "https://github.com/Ojaswi2000/chat-app",
-    demo: "https://github.com/Ojaswi2000/chat-app"
+    github: "https://github.com/Ojaswi2000/Kaggle-submissions",
+    demo: "https://www.kaggle.com/ojaswiawasthi"
   },
 
 ]
