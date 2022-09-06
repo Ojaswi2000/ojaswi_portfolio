@@ -8,8 +8,10 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article>
-          
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <h3>React Chat App using Firebase </h3>
+          </div>
         </article>
       </div>
     </section>
