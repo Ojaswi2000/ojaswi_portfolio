@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import IMG1 from '../../assets/chat-app.PNG'
 
 
 const data = [
