@@ -1,7 +1,9 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/chat-app.PNG'
-
+import IMG2 from '../../assets/box-office.PNG'
+import IMG3 from '../../assets/appointment.PNG'
+import IMG4 from '../../assets/tictactoe.PNG'
 
 const data = [
   {
@@ -14,7 +16,7 @@ const data = [
 
   {
     id: 2,
-    image: IMG1,
+    image: IMG2,
     title: "Box-Office React Application",
     github: "https://github.com/Ojaswi2000/box-office",
     demo: "https://ojaswi2000.github.io/box-office/#/"
@@ -22,7 +24,7 @@ const data = [
 
   {
     id: 3,
-    image: IMG1,
+    image: IMG3,
     title: "Appointment Booking App",
     github: "https://github.com/Ojaswi2000/interface-react",
     demo: "https://github.com/Ojaswi2000/interface-react"
@@ -30,7 +32,7 @@ const data = [
 
   {
     id: 4,
-    image: IMG1,
+    image: IMG4,
     title: "Tic Tac Toe Game",
     github: "https://github.com/Ojaswi2000/Tic-Tac-Toe",
     demo: "http://ojaswi_tictactoe.surge.sh/"
