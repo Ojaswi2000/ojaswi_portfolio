@@ -3,8 +3,23 @@ import './contact.css'
 import {AiTwotoneMail} from 'react-icons/ai'
 import {FaFacebookMessenger} from 'react-icons/fa'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
+import { useRef } from 'react';
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section id='contact'>
       <h5>Get in Touch</h5>
@@ -33,7 +48,7 @@ const Contact = () => {
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text"name='name' placeholder='Your name' required/>
           <input type="email"name='email' placeholder='Your email' required/>
           <textarea name="message" rows="10" placeholder='Your message' required></textarea>
