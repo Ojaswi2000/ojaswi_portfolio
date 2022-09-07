@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/chat-app.PNG'
-import IMG2 from '../../assets/box-office.PNG'
+import IMG2 from '../../assets/box-office.png'
 import IMG3 from '../../assets/appointment.png'
 import IMG4 from '../../assets/tictactoe.PNG'
 import IMG5 from '../../assets/payment.PNG'
-import IMG6 from '../../assets/kaggle.PNG'
+import IMG6 from '../../assets/kaggle.png'
 
 const data = [
   {
