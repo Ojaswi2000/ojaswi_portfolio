@@ -13,6 +13,13 @@ const Footer = () => {
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+
+      <div className="footer__socials">
+        <a href="https://www.instagram.com/ojaswi_awasthi2000/">Instagram</a>
+        <a href="https://github.com/Ojaswi2000">Github</a>
+        <a href="https://twitter.com/OjaswiAwasthi">Twitter</a>
+        <a href="https://www.kaggle.com/ojaswiawasthi">Kaggle</a>
+      </div>
     </footer>
   )
 }
