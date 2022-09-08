@@ -1,5 +1,9 @@
 import React from 'react'
 import './footer.css'
+import {FaFacebookF} from 'react-icons/fa'
+import {RiInstagramFill} from 'react-icons/ri'
+import {AiFillGithub} from 'react-icons/ai'
+import {FaKaggle} from 'react-icons/fa' 
 
 const Footer = () => {
   return (
