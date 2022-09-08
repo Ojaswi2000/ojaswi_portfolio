@@ -19,10 +19,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.instagram.com/ojaswi_awasthi2000/"><RiInstagramFill /></a>
-        <a href="https://github.com/Ojaswi2000"><AiFillGithub /></a>
-        <a href="https://twitter.com/OjaswiAwasthi"><BsTwitter /></a>
-        <a href="https://www.kaggle.com/ojaswiawasthi"><FaKaggle /></a>
+        <a href="https://www.instagram.com/ojaswi_awasthi2000/" target="_blank"><RiInstagramFill /></a>
+        <a href="https://github.com/Ojaswi2000" target="_blank"><AiFillGithub /></a>
+        <a href="https://twitter.com/OjaswiAwasthi" target="_blank"><BsTwitter /></a>
+        <a href="https://www.kaggle.com/ojaswiawasthi" target="_blank"><FaKaggle /></a>
       </div>
     </footer>
   )
