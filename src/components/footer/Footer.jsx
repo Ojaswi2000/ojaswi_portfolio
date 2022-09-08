@@ -3,7 +3,13 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <a href="#" className='footer__logo'>Footer</a>
+
+      <ul className='permalinks'>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </footer>
   )
 }
 
