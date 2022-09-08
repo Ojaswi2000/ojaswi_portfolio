@@ -1,9 +1,9 @@
 import React from 'react'
 import './footer.css'
-import {FaFacebookF} from 'react-icons/fa'
 import {RiInstagramFill} from 'react-icons/ri'
 import {AiFillGithub} from 'react-icons/ai'
 import {FaKaggle} from 'react-icons/fa' 
+import {BsTwitter} from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -19,10 +19,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.instagram.com/ojaswi_awasthi2000/">Instagram</a>
-        <a href="https://github.com/Ojaswi2000">Github</a>
-        <a href="https://twitter.com/OjaswiAwasthi">Twitter</a>
-        <a href="https://www.kaggle.com/ojaswiawasthi">Kaggle</a>
+        <a href="https://www.instagram.com/ojaswi_awasthi2000/"><RiInstagramFill /></a>
+        <a href="https://github.com/Ojaswi2000"><AiFillGithub /></a>
+        <a href="https://twitter.com/OjaswiAwasthi"><BsTwitter /></a>
+        <a href="https://www.kaggle.com/ojaswiawasthi"><FaKaggle /></a>
       </div>
     </footer>
   )
