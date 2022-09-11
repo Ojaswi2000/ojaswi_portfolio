@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ojaswi_portfolio/static/css/main.9b235dc5.css",
+    "main.js": "/ojaswi_portfolio/static/js/main.89fbbe81.js",
+    "static/media/appointment.png": "/ojaswi_portfolio/static/media/appointment.38a51c26c631d0d8ece4.png",
+    "static/media/about_me.jpg": "/ojaswi_portfolio/static/media/about_me.4ea22e56552febb89c69.jpg",
+    "static/media/payment.png": "/ojaswi_portfolio/static/media/payment.8150c6e05d06fd52a66f.png",
+    "static/media/me.png": "/ojaswi_portfolio/static/media/me.6d039ef95d8c92b5ecaa.png",
+    "static/media/Ojaswi_Awasthi Resume.pdf": "/ojaswi_portfolio/static/media/Ojaswi_Awasthi Resume.026dd3da6026cb8f991f.pdf",
+    "static/media/chat-app.png": "/ojaswi_portfolio/static/media/chat-app.17ec0153a09877703d77.png",
+    "static/media/box-office.png": "/ojaswi_portfolio/static/media/box-office.370dc94c2f35eeba4fb1.png",
+    "static/media/kaggle.png": "/ojaswi_portfolio/static/media/kaggle.2b5e4a3e74c9dd865446.png",
+    "static/media/tictactoe.PNG": "/ojaswi_portfolio/static/media/tictactoe.0dd2821df36d90549a79.PNG",
+    "index.html": "/ojaswi_portfolio/index.html",
+    "main.9b235dc5.css.map": "/ojaswi_portfolio/static/css/main.9b235dc5.css.map",
+    "main.89fbbe81.js.map": "/ojaswi_portfolio/static/js/main.89fbbe81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b235dc5.css",
+    "static/js/main.89fbbe81.js"
+  ]
+}
